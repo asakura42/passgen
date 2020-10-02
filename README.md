@@ -5,7 +5,7 @@ using:
 
 `./passgen.sh NUMBER` - where NUMBER is number of syllables.
 
-for example: `./passgen.sh $(( ( RANDOM % 3 )  + 3 ))`
+for example: `./passgen.sh $(( ( RANDOM % 3 )  + 3 ))` or `./passgen.sh 4`
 
 examples:
 
