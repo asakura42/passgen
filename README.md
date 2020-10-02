@@ -1,6 +1,12 @@
 # passgen
 small shell memorable pass generator
 
+using:
+
+`./passgen.sh NUMBER` - where NUMBER is number of syllables.
+
+for example: `./passgen.sh $(( ( RANDOM % 3 )  + 3 ))`
+
 examples:
 
 ```
